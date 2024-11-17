@@ -1,0 +1,36 @@
+.skills_content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.skills_content-wrapper_inner-content {
+    margin-bottom: 20px;
+}
+
+.progress-wrapper {
+    margin-bottom: 15px;
+}
+
+.progress-wrapper p {
+    margin: 0 0 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: yellow;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
